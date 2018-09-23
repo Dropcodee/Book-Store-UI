@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BookStore</title>
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/morphext.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar__design">
+        <a class="navbar-brand" href="#">Book Store</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact-us.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cart.html"> Cart <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i>
+                        <span class="badge badge-dark">4</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="landing__section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-xs-12">
+                    <div class="hero__img__wrapper">
+                        <img src="assets/img/stack.png" alt="" class="img-fluid img-thumbnail" style="border: 0 !important;">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xs-12">
+                    <div class="text__wrapper text-center">
+                        <h2>
+                            INVEST IN <span id="js-rotating"> BOOKS, YOUR BRAIN, YOUR MIND, YOUR SUCCESS</span>
+                        </h2>
+                        <h2>
+                            BE <span id="js-text">EMPOWERED, MORE EXPOSED, MORE CREATIVE...</span>
+                        </h2>
+                        <h2>
+                            START <span id="js-text2">READING, NOW!, TODAY.</span>
+                        </h2>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <section class="book__listing__wrapper">
+        <div class="container text-center header__wrapper">
+            <header>
+                <h1> Latest Releases</h1>
+            </header>
+            <hr class="header__line" />
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card" style="margin-bottom: 3em;">
+                    <img class="card-img-top" src="./assets/img/cover1.webp" alt="">
+                    <div class="card-body text-center">
+                        <h5>Book Title</h5>
+                        <h5>$8</h5>
+                        <a href="single-product.html">
+                            <button class="btn btn__shop">Add to cart <i class="fa fa-cart-plus"></i></button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="margin-bottom: 3em;">
+                    <img class="card-img-top" src="./assets/img/cover2.jpeg" alt="">
+                    <div class="card-body text-center">
+                        <h5>Book Title</h5>
+                        <h5>$8</h5>
+                        <a href="single-product.html">
+                            <button class="btn btn__shop">Add to cart <i class="fa fa-cart-plus"></i></button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="margin-bottom: 3em;">
+                    <img class="card-img-top" src="./assets/img/cover3.jpeg" alt="">
+                    <div class="card-body text-center">
+                        <h5>Book Title</h5>
+                        <h5>$8</h5>
+                        <a href="single-product.html">
+                            <button class="btn btn__shop">Add to cart <i class="fa fa-cart-plus"></i></button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="margin-bottom: 3em;">
+                    <img class="card-img-top" src="./assets/img/cover4.jpg" alt="">
+                    <div class="card-body text-center">
+                        <h5>Book Title</h5>
+                        <h5>$8</h5>
+                        <a href="single-product.html">
+                            <button class="btn btn__shop">Add to cart <i class="fa fa-cart-plus"></i></button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="best__sellers__section">
+        <div class="container-fluid best__sellers__wrapper">
+            <div class="container text-center header__wrapper">
+                <header>
+                    <h1 style="padding-top: 3em;"> Best Sellers</h1>
+                </header>
+                <hr class="header__line" />
+            </div>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner row w-100 mx-auto">
+                    <div class="carousel-item col-md-4 active">
+                        <div class="card">
+                            <img class="card-img-top" src="./assets/img/best1.jpg" alt="">
+                            <div class="card-body text-center">
+                                <h5>Book Title</h5>
+                                <h5>$8</h5>
+                                <a href="single-product.html">
+                                    <button class="btn btn__shop">Add to cart <i class="fa fa-cart-plus"></i></button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="./assets/img/best2.jpg" alt="">
+                            <div class="card-body text-center">
+                                <h5>Book Title</h5>
+                                <h5>$8</h5>
+                                <a href="single-product.html">
+                                    <button class="btn btn__shop">Add to cart <i class="fa fa-cart-plus"></i></button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="./assets/img/best3.jpg" alt="">
+                            <div class="card-body text-center">
+                                <h5>Book Title</h5>
+                                <h5>$8</h5>
+                                <a href="single-product.html">
+                                    <button class="btn btn__shop">Add to cart <i class="fa fa-cart-plus"></i></button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="./assets/img/Orleans.jpg" alt="">
+                            <div class="card-body text-center">
+                                <h5>Book Title</h5>
+                                <h5>$8</h5>
+                                <a href="single-product.html">
+                                    <button class="btn btn__shop">Add to cart <i class="fa fa-cart-plus"></i></button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="./assets/img/best6.jpg" alt="">
+                            <div class="card-body text-center">
+                                <h5>Book Title</h5>
+                                <h5>$8</h5>
+                                <a href="single-product.html">
+                                    <button class="btn btn__shop">Add to cart <i class="fa fa-cart-plus"></i></button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="./assets/img/best5.jpg" alt="">
+                            <div class="card-body text-center">
+                                <h5>Book Title</h5>
+                                <h5>$8</h5>
+                                <a href="single-product.html">
+                                    <button class="btn btn__shop">Add to cart <i class="fa fa-cart-plus"></i></button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="./assets/img/cover2.jpeg" alt="">
+                            <div class="card-body text-center">
+                                <h5>Book Title</h5>
+                                <h5>$8</h5>
+                                <a href="single-product.html">
+                                    <button class="btn btn__shop">Add to cart <i class="fa fa-cart-plus"></i></button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact__section text-center">
+        <div class="contact__wrapper">
+            <div class="contact__overlay">
+                <h2>CONNECT WITH US NOW !</h2>
+                <hr id="hr__contact">
+                <h4>FOR ENQUIRIES AND COMPLAINTS</h4>
+                <a href="contact-us.html">
+                    <button class="btn btn__contact">Contact Us !</button>
+                </a>
+                <hr id="hr__contact">
+                <div class="social__links">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 col-xs-6 col-lg-3 col-6" style="margin-bottom: 1.5em;">
+                                <a href="">
+                                    <button class="btn btn__FB"><i class="fa fa-facebook fa-lg"></i></button>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-xs-6 col-lg-3 col-6" style="margin-bottom: 1.5em;">
+                                <a href="">
+                                    <button class="btn btn__IG"><i class="fa fa-instagram fa-lg"></i></button>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-xs-6 col-lg-3 col-6" style="margin-bottom: 1.5em;">
+                                <a href="">
+                                    <button class="btn btn__TW"><i class="fa fa-twitter fa-lg"></i></button>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-xs-6 col-lg-3 col-6" style="margin-bottom: 1.5em;">
+                                <a href="">
+                                    <button class="btn btn__G"><i class="fa fa-google-plus fa-lg"></i></button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="container">
+            <div class="row text-center text-xs-center text-sm-left text-md-left">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <h5>Quick links</h5>
+                    <ul class="list-unstyled quick-links">
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <h5>Quick links</h5>
+                    <ul class="list-unstyled quick-links">
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <h5>Quick links</h5>
+                    <ul class="list-unstyled quick-links">
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                        <li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                    <ul class="list-unstyled list-inline social text-center">
+                        <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
+                        <li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+                <hr />
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                    <p><u><a href="https://www.nationaltransaction.com/">National Transaction Corporation</a></u> is a
+                        Registered MSP/ISO of Elavon, Inc. Georgia [a wholly owned subsidiary of U.S. Bancorp,
+                        Minneapolis,
+                        MN]</p>
+                    <p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="https://www.sunlimetech.com"
+                            target="_blank">Sunlimetech</a></p>
+                </div>
+                <hr />
+            </div>
+        </div>
+    </section>
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/morphext.min.js"></script>
+    <script>
+        $("#js-rotating").Morphext({
+            // The [in] animation type. Refer to Animate.css for a list of available animations.
+            animation: "bounceIn",
+            // An array of phrases to rotate are created based on this separator. Change it if you wish to separate the phrases
+            separator: ",",
+            // The delay between the changing of each phrase in milliseconds.
+            speed: 2000,
+            complete: function () {
+                // Called after the entrance animation is executed.
+            }
+        });
+        $("#js-text").Morphext({
+            // The [in] animation type. Refer to Animate.css for a list of available animations.
+            animation: "bounceIn",
+            // An array of phrases to rotate are created based on this separator. Change it if you wish to separate the phrases
+            separator: ",",
+            // The delay between the changing of each phrase in milliseconds.
+            speed: 5000,
+            complete: function () {
+                // Called after the entrance animation is executed.
+            }
+        });
+        $("#js-text2").Morphext({
+            // The [in] animation type. Refer to Animate.css for a list of available animations.
+            animation: "bounceIn",
+            // An array of phrases to rotate are created based on this separator. Change it if you wish to separate the phrases
+            separator: ",",
+            // The delay between the changing of each phrase in milliseconds.
+            speed: 7000,
+            complete: function () {
+                // Called after the entrance animation is executed.
+            }
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+
+</html>
